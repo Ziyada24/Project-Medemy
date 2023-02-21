@@ -1,0 +1,105 @@
+.img-logo {
+  margin: 0 auto;
+}
+
+.register-form,
+.login-form,
+.restore-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 7% auto;
+  text-align: center;
+  width: 25%;
+  font-size: 1.2rem;
+}
+
+.register-inp,
+.login-inp,
+.restore-inp {
+  min-width: 150px;
+  height: 30px;
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 0.5px solid rgb(223, 216, 216);
+  border-radius: 5px;
+}
+
+.register-inp:hover {
+  outline: 0.5px solid rgb(118, 118, 186);
+}
+
+.login-inp:hover {
+  outline: 0.5px solid rgb(118, 118, 186);
+}
+
+.register-btn,
+.login-btn {
+  color: #fff;
+  background-color: rgb(75, 75, 165);
+  border: none;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.restore-btn {
+  color: #fff;
+  background-color: rgb(105, 55, 139);
+  border: none;
+  padding: 15px 0;
+  font-size: 1.2rem;
+}
+
+.login-link {
+  color: rgb(18, 18, 118);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.login {
+  background-color: #049c46;
+  cursor: pointer;
+}
+
+.email-inp {
+  margin-top: 1%;
+  width: 100%;
+}
+
+.send-btn {
+  text-align: center;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #2c71bb;
+  padding: 7px 15px;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+@media (max-width: 930px) {
+  .login-form,
+  .register-form,
+  .restore-form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 460px) {
+  .login-form,
+  .register-form,
+  .restore-form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 330px) {
+  .login-form,
+  .register-form,
+  .restore-form {
+    width: 80%;
+  }
+}
